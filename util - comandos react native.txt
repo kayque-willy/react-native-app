@@ -10,7 +10,9 @@
 
 > $  npm install --save react-native-animatable //--------------// Instalação do pacote de animações 
 
-> $  npm install --save axios //--------------// Instalação do axios para consumo de APIs
+> $  npm install --save axios //--------------// Instalação do axios para gerenciar as requisições no consumo de APIs
+
+> $  npm install --save react-query //--------------// Instalação do react query para gerenciamento dos dados obtidos da API
 
 ------------------------------------------CRIAÇÃO PROJETO-------------------------------------------------
 
