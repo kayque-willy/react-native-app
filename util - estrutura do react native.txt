@@ -1,0 +1,43 @@
+--------------------------------- ARQUIVOS IMPORTANTES REACT NATIVE ------------------------------------
+
+> .\App.tsx //--------------// Arquivo principal onde é executado o projeto
+
+--------------------------------- DIRETÓRIOS DO PROJETO E COMPONENTES ------------------------------------
+
+> .\src\... //--------------// Diretório criado manualmente para os códigos fonte do projeto
+
+> .\src\@types\... //--------------// Diretório das configurações das extensões de arquivos de imagem
+
+> .\src\components\... //--------------// Diretório criado manualmente para os componentes 
+
+> .\src\screens\... //--------------// Diretório criado manualmente para as telas 
+
+> .\src\theme\... //--------------// Diretório criado manualmente para configuração dos tokens de design do tema do aplicativo, como as fontes e cores padrões
+
+    .\src\theme\index.ts  //--------------//  Definição dos tokens de stilo
+    .\src\theme\syteld.d.tx //--------------// Configuração do tema
+
+> .\src\assets\... //--------------// Diretório criado manualmente dos assets específicos do projeto, icones, imagens, etc.
+
+> .\assets\... //--------------// Diretório dos assets da aplicação, icones, imagens, etc.
+
+--------------------------------- ARQUIVOS DE CONFIGURAÇÃO REACT NATIVE ------------------------------------
+
+> .\App.json //--------------// Configuração do projeto
+
+    expo = [...] //--------------// Componentes gereais do EXPO, icones, nome da label, OS de execução, etc
+    splash = [...], ios = [...], android = [...] //--------------// Demais configurações
+
+--------------------------------------- CONFIGURAÇÃO DOS PACOTES NPM -----------------------------------------
+
+> .\package-lock.json //--------------// Configuração das dependencias do projeto
+
+> .\package.json //--------------// Configuração das dependencias do projeto
+
+> .\tsconfig.json //--------------// Configuração do typescript
+
+--------------------------------------- IMPORTANTE -----------------------------------------
+
+Adobe Color Wheel -> https://color.adobe.com/pt/create/color-wheel
+Usado para definição cromatica das cores e identificação de cores padrões a partir de uma imagem como um logo
+Utiliza as teorias de cores e regras de harmonias

@@ -1,0 +1,29 @@
+---------------------------------------------INSTALAÇÃO--------------------------------------------------
+
+> $  npm i -g expo-cli //--------------// Instalação do Expo Go , para depuração e execução remota 
+
+> $  npm install --save styled-components //--------------// Instalação do styled-components para CSS
+
+> $  npm install --save @types/styled-components-react-native //--------------// Instalação da tipagem do styled-components para CSS
+
+> $  npm install --save react-native-responsive-fontsize //--------------// Instalação das fontes responsivas
+
+> $  npm install --save react-native-animatable //--------------// Instalação do pacote de animações 
+
+------------------------------------------CRIAÇÃO PROJETO-------------------------------------------------
+
+> $  expo init //--------------// Criação de um novo projeto React Native
+
+> $  npx create-expo-app my-app //--------------// Criação de um novo projeto React Native
+
+-------------------------------------INSTALAÇÃO DE DEPENDENCIAS-------------------------------------------
+
+> $  expo install @expo-google-fonts/roboto  //--------------// Instalação da font Roboto
+
+> $  expo install expo-app-loading  //--------------// Instalação do app loading
+
+----------------------------------------------EXECUÇÃO----------------------------------------------------
+
+> $  expo start //--------------// Executa o projeto com o Expo Go 
+
+----------------------------------------------------------------------------------------------------------
