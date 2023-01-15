@@ -10,6 +10,8 @@
 
 > $  npm install --save react-native-animatable //--------------// Instalação do pacote de animações 
 
+> $  npm install --save axios //--------------// Instalação do axios para consumo de APIs
+
 ------------------------------------------CRIAÇÃO PROJETO-------------------------------------------------
 
 > $  expo init //--------------// Criação de um novo projeto React Native
