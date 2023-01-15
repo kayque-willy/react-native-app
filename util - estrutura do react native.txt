@@ -17,6 +17,8 @@
     .\src\theme\index.ts  //--------------//  Definição dos tokens de stilo
     .\src\theme\syteld.d.tx //--------------// Configuração do tema
 
+> .\src\services\... //--------------// Diretório criado manualmente dos serviços do projeto
+
 > .\src\assets\... //--------------// Diretório criado manualmente dos assets específicos do projeto, icones, imagens, etc.
 
 > .\assets\... //--------------// Diretório dos assets da aplicação, icones, imagens, etc.

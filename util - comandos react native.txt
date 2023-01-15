@@ -14,6 +14,8 @@
 
 > $  npm install --save react-query //--------------// Instalação do react query para gerenciamento dos dados obtidos da API
 
+> $  npm install --save react-hook-form //--------------// Instalação do react hook form para gerenciamento e validações dos formulários
+
 ------------------------------------------CRIAÇÃO PROJETO-------------------------------------------------
 
 > $  expo init //--------------// Criação de um novo projeto React Native
