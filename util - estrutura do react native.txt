@@ -4,24 +4,26 @@
 
 --------------------------------- DIRETÓRIOS DO PROJETO E COMPONENTES ------------------------------------
 
+> .\assets\... //--------------// Diretório dos assets da aplicação, icones, imagens, etc.
+
 > .\src\... //--------------// Diretório criado manualmente para os códigos fonte do projeto
 
-> .\src\@types\... //--------------// Diretório das configurações das extensões de arquivos de imagem
+    [@types] > .\src\@types\... //--------------// Diretório das configurações das extensões de arquivos de imagem
 
-> .\src\components\... //--------------// Diretório criado manualmente para os componentes 
+    [routes] > .\src\routes\... //--------------// Diretório criado manualmente para as rotas
 
-> .\src\screens\... //--------------// Diretório criado manualmente para as telas 
+    [components] > .\src\components\... //--------------// Diretório criado manualmente para os componentes 
 
-> .\src\theme\... //--------------// Diretório criado manualmente para configuração dos tokens de design do tema do aplicativo, como as fontes e cores padrões
+    [screens] > .\src\screens\... //--------------// Diretório criado manualmente para as telas 
 
-    .\src\theme\index.ts  //--------------//  Definição dos tokens de stilo
-    .\src\theme\syteld.d.tx //--------------// Configuração do tema
+    [services] > .\src\services\... //--------------// Diretório criado manualmente dos serviços do projeto
 
-> .\src\services\... //--------------// Diretório criado manualmente dos serviços do projeto
+    [theme] > .\src\theme\... //--------------// Diretório criado manualmente para configuração dos tokens de design do tema do aplicativo, como as fontes e cores padrões
 
-> .\src\assets\... //--------------// Diretório criado manualmente dos assets específicos do projeto, icones, imagens, etc.
+        .\src\theme\index.ts  //--------------//  Definição dos tokens de stilo
+        .\src\theme\syteld.d.tx //--------------// Configuração do tema
 
-> .\assets\... //--------------// Diretório dos assets da aplicação, icones, imagens, etc.
+    [assets] > .\src\assets\... //--------------// Diretório criado manualmente dos assets específicos do projeto, icones, imagens, etc.
 
 --------------------------------- ARQUIVOS DE CONFIGURAÇÃO REACT NATIVE ------------------------------------
 

@@ -16,6 +16,25 @@
 
 > $  npm install --save react-hook-form //--------------// Instalação do react hook form para gerenciamento e validações dos formulários
 
+> $  npm install --save @react-navigation/native //--------------// Instalação do react navigation para gerenciamento de rotas
+
+    [REACT-NAVIGATION - DEPENDENCIAS OBRIGATÓRIAS]
+
+    > $  npm install --save react-native-screens //--------------// Instalação das dependencias de complemento para a a react navigate
+
+    > $  npm install --save react-native-safe-area-context //--------------// Instalação das dependencias de complemento para a a react navigate
+
+    [TIPOS DE NAVEGAÇÃO]
+
+    [Stack] (Tela sobre tela)
+    > $  npm install @react-navigation/native-stack //--------------// Instalação das dependencias de complemento para a a react navigate
+
+    [Tab] (Menu inferior) 
+    > $  npm install @react-navigation/bottom-tabs //--------------// Instalação das dependencias de complemento para a a react navigate
+
+    [Draw] (Barra lateral)
+    > $  npm install @react-navigation/drawer //--------------// Instalação das dependencias de complemento para a a react navigate
+
 ------------------------------------------CRIAÇÃO PROJETO-------------------------------------------------
 
 > $  expo init //--------------// Criação de um novo projeto React Native
