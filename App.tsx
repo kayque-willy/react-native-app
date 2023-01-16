@@ -5,21 +5,21 @@ import { useFonts, Roboto_400Regular, Roboto_500Medium, Roboto_700Bold } from "@
 
 import THEME from "./src/theme";
 import { Home } from "./src/screens/Home";
+import { queryClient } from "./src/services/queryClient";
+import { QueryClientProvider } from "react-query";
 
 export default function App() {
-  const [fontsLoaded] = useFonts({
-    Roboto_400Regular,
-    Roboto_500Medium,
-    Roboto_700Bold
-  });
+  const [fontsLoaded] = useFonts({ Roboto_400Regular, Roboto_500Medium, Roboto_700Bold });
 
   if (!fontsLoaded) {
     return <AppLoading />;
   }
 
   return (
-    <ThemeProvider theme={THEME}>
-      <Home />
-    </ThemeProvider>
+    <QueryClientProvider client={queryClient}>
+      <ThemeProvider theme={THEME}>
+        <Home />
+      </ThemeProvider>
+    </QueryClientProvider>
   );
 }

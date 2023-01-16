@@ -1,5 +1,3 @@
-import { Alert } from "react-native";
-
 export default {
     COLORS: {
         BACKGROUND: '#F2F2F2',

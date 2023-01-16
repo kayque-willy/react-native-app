@@ -3,7 +3,7 @@ import { Container, Foundation, Image, Title } from './styles';
 
 import unitedImg from '../../assets/united.png';
 
-export function Card() {
+export function Card(props: any) {
     return (
         <Container
             animation="slideInDown"
@@ -17,8 +17,12 @@ export function Card() {
                 direction="alternate"
                 iterationCount="infinite"
             />
-            <Title>Manchester United</Title>
-            <Foundation>1978</Foundation>
+            <Title>{props.name}</Title>
+            {props.web_pages?.map((web_page: string) => {
+                return (
+                    <Foundation>{web_page}</Foundation>
+                )
+            })}
         </Container>
     );
 }
