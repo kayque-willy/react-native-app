@@ -2,7 +2,7 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { Home } from "../screens/Home";
 import { Universities } from "../screens/Universities";
 import { MaterialIcons } from '@expo/vector-icons';
-import theme from "../theme";
+import THEME from "../theme";
 
 const { Screen, Navigator } = createBottomTabNavigator();
 
@@ -13,11 +13,10 @@ export function TabRoutes() {
                 tabBarActiveTintColor: 'blue',
                 tabBarInactiveTintColor: 'gray',
                 tabBarHideOnKeyboard: true,
-                tabBarActiveBackgroundColor: theme.COLORS.BACKGROUND,
-                tabBarInactiveBackgroundColor: theme.COLORS.BACKGROUND,
+                tabBarActiveBackgroundColor: THEME.COLORS.BACKGROUND,
+                tabBarInactiveBackgroundColor: THEME.COLORS.BACKGROUND,
             }
             }
-
         >
             <Screen
                 name='Home'

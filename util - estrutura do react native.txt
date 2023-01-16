@@ -10,6 +10,9 @@
 
     [@types] > .\src\@types\... //--------------// Diretório das configurações das extensões de arquivos de imagem
 
+        .\src\@types\navigation.d.ts //--------------// Configuração dos tipos das rotas 
+        .\src\@types\png.d.ts //--------------// Configuração do tipo de imagem png
+    
     [routes] > .\src\routes\... //--------------// Diretório criado manualmente para as rotas
 
     [components] > .\src\components\... //--------------// Diretório criado manualmente para os componentes 
