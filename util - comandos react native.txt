@@ -35,6 +35,8 @@
     [Draw] (Barra lateral)
     > $  npm install @react-navigation/drawer //--------------// Instalação das dependencias de complemento para a a react navigate
 
+> $  npm install @types/react //--------------// Instalação da tipagem do react, caso ocorra algum problema com o typescript
+
 ------------------------------------------CRIAÇÃO PROJETO-------------------------------------------------
 
 > $  expo init //--------------// Criação de um novo projeto React Native
