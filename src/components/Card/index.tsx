@@ -2,8 +2,18 @@ import React from 'react';
 import { Container, Foundation, Image, Title } from './styles';
 
 import unitedImg from '../../assets/united.png';
+import { Button } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
 
 export function Card(props: any) {
+
+    // ----------------------- NAVEGAÇÃO -----------------------
+    const navigation = useNavigation();
+
+    function save() {
+        navigation.navigate("Universities", { name: props.name });
+    }
+
     return (
         <Container
             animation="slideInDown"
@@ -23,6 +33,10 @@ export function Card(props: any) {
                     <Foundation>{web_page}</Foundation>
                 )
             })}
+            <Button
+                title="Salvar"
+                onPress={save}
+            />
         </Container>
     );
 }

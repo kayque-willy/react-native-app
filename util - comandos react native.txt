@@ -41,14 +41,18 @@
 
 > $  npx create-expo-app my-app //--------------// Criação de um novo projeto React Native
 
--------------------------------------INSTALAÇÃO DE DEPENDENCIAS-------------------------------------------
+---------------------------INSTALAÇÃO DE DEPENDENCIAS PARA CONFIGURAÇÕES NATIVAS--------------------------
 
 > $  expo install @expo-google-fonts/roboto  //--------------// Instalação da font Roboto
 
 > $  expo install expo-app-loading  //--------------// Instalação do app loading
 
+> $  expo install react-native-reanimated  //--------------// Instalação do reanimatede, gerencia as animações, obrigatório para o react-drawer
+
+> $  expo install react-native-gesture-handler  //--------------// Instalação do gestle handler, gerencias os gestos, obrigatório para o react-drawer
+
 ----------------------------------------------EXECUÇÃO----------------------------------------------------
 
-> $  expo start //--------------// Executa o projeto com o Expo Go 
+> $  expo start --clear //--------------// Executa o projeto com o Expo Go 
 
 ----------------------------------------------------------------------------------------------------------

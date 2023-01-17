@@ -15,16 +15,13 @@ export function TabRoutes() {
                 tabBarHideOnKeyboard: true,
                 tabBarActiveBackgroundColor: THEME.COLORS.BACKGROUND,
                 tabBarInactiveBackgroundColor: THEME.COLORS.BACKGROUND,
-            }
-            }
-        >
+                headerShown: false,
+            }}>
             <Screen
                 name='Home'
                 component={Home}
-
                 options={{
                     tabBarLabel: 'Home',
-                    headerShown: false,
                     tabBarIcon: ({ color, size }) => (
                         <MaterialIcons
                             name="home"
@@ -39,7 +36,6 @@ export function TabRoutes() {
                 component={Universities}
                 options={{
                     tabBarLabel: 'Universidades',
-                    headerShown: false,
                     tabBarIcon: ({ color, size }) => (
                         <MaterialIcons
                             name="school"
@@ -49,6 +45,6 @@ export function TabRoutes() {
                     )
                 }}
             />
-        </Navigator>
+        </Navigator >
     )
 }

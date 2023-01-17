@@ -35,6 +35,8 @@
     expo = [...] //--------------// Componentes gereais do EXPO, icones, nome da label, OS de execução, etc
     splash = [...], ios = [...], android = [...] //--------------// Demais configurações
 
+> .\babel.config.js //--------------// Configuração dos plugins
+
 --------------------------------------- CONFIGURAÇÃO DOS PACOTES NPM -----------------------------------------
 
 > .\package-lock.json //--------------// Configuração das dependencias do projeto
