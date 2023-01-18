@@ -55,10 +55,14 @@
 
 ----------------------------------------------EXECUÇÃO----------------------------------------------------
 
+> $  npx expo build:web //--------------// Exporta o projeto compilado para execução web
+
+----------------------------------------------COMPILAÇÃO----------------------------------------------------
+
 > $  expo start --clear //--------------// Executa o projeto com o Expo Go 
 
 > $  npx expo run:android --variant debug || release//--------------// Executa o projeto diretamente no dispositivo android, pelo emuladour ou USB
 
-> $  npx expo run:ios --variant debug || release//--------------// Executa o projeto diretamente no dispositivo IOS, pelo emuladour ou USB
+> $  npx expo run:ios --variant debug || release //--------------// Executa o projeto diretamente no dispositivo IOS, pelo emuladour ou USB
 
 ----------------------------------------------------------------------------------------------------------
