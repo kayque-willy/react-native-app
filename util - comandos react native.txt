@@ -10,7 +10,7 @@
 
 > $  npm install -g eas-cli //--------------// Instalação do EAS para compilação 
 
-------------------------------------INSTALAÇÃO - [STYLED COMPONENTES E TIPAGEM]--------------------------------------
+---------------------------------INSTALAÇÃO - [STYLED COMPONENTES E TIPAGEM]--------------------------------
 
 > $  npm install --save styled-components //--------------// Instalação do styled-components para CSS
 
