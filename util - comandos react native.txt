@@ -53,11 +53,11 @@
 
 > $  expo install react-native-gesture-handler  //--------------// Instalação do gestle handler, gerencias os gestos, obrigatório para o react-drawer
 
-----------------------------------------------EXECUÇÃO----------------------------------------------------
+----------------------------------------------COMPILAÇÃO----------------------------------------------------
 
 > $  npx expo build:web //--------------// Exporta o projeto compilado para execução web
 
-----------------------------------------------COMPILAÇÃO----------------------------------------------------
+----------------------------------------------EXECUÇÃO----------------------------------------------------
 
 > $  expo start --clear //--------------// Executa o projeto com o Expo Go 
 
