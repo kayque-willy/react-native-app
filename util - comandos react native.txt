@@ -8,6 +8,8 @@
 
 > $  npm install -g expo-cli //--------------// Instalação do Expo Go , para depuração e execução remota 
 
+> $  npm install -g eas-cli //--------------// Instalação do EAS para compilação 
+
 > $  npm install --save styled-components //--------------// Instalação do styled-components para CSS
 
 > $  npm install --save @types/styled-components-react-native //--------------// Instalação da tipagem do styled-components para CSS
@@ -55,7 +57,11 @@
 
 ----------------------------------------------COMPILAÇÃO----------------------------------------------------
 
-> $  npx expo build:web //--------------// Exporta o projeto compilado para execução web
+> $ npx expo build:web //--------------// Exporta o projeto compilado para execução web
+
+> $ eas build --platform android //--------------// Exporta o projeto compilado para android
+
+> $ eas build --platform ios //--------------// Exporta o projeto compilado IOS
 
 ----------------------------------------------EXECUÇÃO----------------------------------------------------
 
