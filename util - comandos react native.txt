@@ -4,11 +4,13 @@
 
 > $  npx create-expo-app my-app //--------------// Criação de um novo projeto React Native, Bare Project, no qual, também inclui os códigos nativos dos OS
 
----------------------------------------------INSTALAÇÃO--------------------------------------------------
+------------------------------------------INSTALAÇÃO - [CLI]-----------------------------------------------
 
 > $  npm install -g expo-cli //--------------// Instalação do Expo Go , para depuração e execução remota 
 
 > $  npm install -g eas-cli //--------------// Instalação do EAS para compilação 
+
+------------------------------------INSTALAÇÃO - [STYLED COMPONENTES E TIPAGEM]--------------------------------------
 
 > $  npm install --save styled-components //--------------// Instalação do styled-components para CSS
 
@@ -20,11 +22,17 @@
 
 > $  npm install --save react-native-animatable //--------------// Instalação do pacote de animações 
 
+----------------------------------------INSTALAÇÃO - [QUERY API]------------------------------------------
+
 > $  npm install --save axios //--------------// Instalação do axios para gerenciar as requisições no consumo de APIs
 
 > $  npm install --save react-query //--------------// Instalação do react query para gerenciamento dos dados obtidos da API
 
+----------------------------------------INSTALAÇÃO - [HOOK FORM]------------------------------------------
+
 > $  npm install --save react-hook-form //--------------// Instalação do react hook form para gerenciamento e validações dos formulários
+
+----------------------------------------INSTALAÇÃO - [NAVEGAÇÃO]------------------------------------------
 
 > $  npm install --save @react-navigation/native //--------------// Instalação do react navigation para gerenciamento de rotas
 
@@ -47,13 +55,13 @@
 
 ---------------------------INSTALAÇÃO DE DEPENDENCIAS PARA CONFIGURAÇÕES NATIVAS--------------------------
 
-> $  expo install @expo-google-fonts/roboto  //--------------// Instalação da font Roboto
+> $  expo install @expo-google-fonts/roboto  //--------------// Instalação da fonte Roboto
 
 > $  expo install expo-app-loading  //--------------// Instalação do app loading
 
-> $  expo install react-native-reanimated  //--------------// Instalação do reanimatede, gerencia as animações, obrigatório para o react-drawer
+> $  expo install react-native-reanimated  //--------------// Instalação do reanimatede, que gerencia as animações, obrigatório para o react-drawer
 
-> $  expo install react-native-gesture-handler  //--------------// Instalação do gestle handler, gerencias os gestos, obrigatório para o react-drawer
+> $  expo install react-native-gesture-handler  //--------------// Instalação do gestle handler, que gerencias os gestos, obrigatório para o react-drawer
 
 ----------------------------------------------COMPILAÇÃO----------------------------------------------------
 
