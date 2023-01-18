@@ -1,6 +1,6 @@
 import React from 'react';
 import { Keyboard, KeyboardAvoidingView, TouchableWithoutFeedback } from 'react-native';
-import { Container, Header, Title } from './styles';
+import { Container, Header, Title, Text } from './styles';
 
 export function Profile() {
     return (
@@ -9,6 +9,7 @@ export function Profile() {
                 <KeyboardAvoidingView behavior='position' enabled>
                     <Header>
                         <Title>Perfil com foto</Title>
+                        <Text>Exemplo de pagina acessada pelo drawer menu</Text>
                     </Header>
                 </KeyboardAvoidingView>
             </TouchableWithoutFeedback>

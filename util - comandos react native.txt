@@ -1,10 +1,18 @@
+------------------------------------------CRIAÇÃO PROJETO-------------------------------------------------
+
+> $  expo init //--------------// Criação de um novo projeto React Native (Expo Go)
+
+> $  npx create-expo-app my-app //--------------// Criação de um novo projeto React Native, Bare Project, no qual, também inclui os códigos nativos dos OS
+
 ---------------------------------------------INSTALAÇÃO--------------------------------------------------
 
-> $  npm i -g expo-cli //--------------// Instalação do Expo Go , para depuração e execução remota 
+> $  npm install -g expo-cli //--------------// Instalação do Expo Go , para depuração e execução remota 
 
 > $  npm install --save styled-components //--------------// Instalação do styled-components para CSS
 
 > $  npm install --save @types/styled-components-react-native //--------------// Instalação da tipagem do styled-components para CSS
+
+> $  npm install --save @types/react //--------------// Instalação da tipagem do react, caso ocorra algum problema com o typescript
 
 > $  npm install --save react-native-responsive-fontsize //--------------// Instalação das fontes responsivas
 
@@ -35,14 +43,6 @@
     [Draw] (Barra lateral)
     > $  npm install @react-navigation/drawer //--------------// Instalação das dependencias de complemento para a a react navigate
 
-> $  npm install @types/react //--------------// Instalação da tipagem do react, caso ocorra algum problema com o typescript
-
-------------------------------------------CRIAÇÃO PROJETO-------------------------------------------------
-
-> $  expo init //--------------// Criação de um novo projeto React Native
-
-> $  npx create-expo-app my-app //--------------// Criação de um novo projeto React Native
-
 ---------------------------INSTALAÇÃO DE DEPENDENCIAS PARA CONFIGURAÇÕES NATIVAS--------------------------
 
 > $  expo install @expo-google-fonts/roboto  //--------------// Instalação da font Roboto
@@ -56,5 +56,9 @@
 ----------------------------------------------EXECUÇÃO----------------------------------------------------
 
 > $  expo start --clear //--------------// Executa o projeto com o Expo Go 
+
+> $  npx expo run:android --variant debug || release//--------------// Executa o projeto diretamente no dispositivo android, pelo emuladour ou USB
+
+> $  npx expo run:ios --variant debug || release//--------------// Executa o projeto diretamente no dispositivo IOS, pelo emuladour ou USB
 
 ----------------------------------------------------------------------------------------------------------
