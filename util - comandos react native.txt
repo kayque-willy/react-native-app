@@ -75,6 +75,10 @@
      [OBRIGATÓRIO - BABEL] -> ./babel.config.js
         plugins: ['react-native-reanimated/plugin'], //--------------// Obrigatório a adição do plugin do reanimated no Babel.config
 
+     [OBRIGATÓRIO - GRADLE] -> ./android/build.gradle
+       kotlin_version = '1.5.20' 
+       kotlinVersion = '1.5.20'  //--------------// Obrigatório a adição da versão do kotlin no build.gradle
+
 > $  expo install react-native-gesture-handler  //--------------// Instalação do gestle handler, que gerencias os gestos, obrigatório para o react-drawer
 
      [OBRIGATÓRIO] -> ./App.tsx
