@@ -66,6 +66,9 @@
 
 > $  expo install react-native-gesture-handler  //--------------// Instalação do gestle handler, que gerencias os gestos, obrigatório para o react-drawer
 
+     [OBRIGATÓRIO] -> ./App.tsx
+        Adição do <GestureHandlerRootView> na View //--------------// Obrigatório a adição do plugin do reanimated no Babel.config
+
 ----------------------------------------------COMPILAÇÃO----------------------------------------------------
 
 > $ npx expo build:web //--------------// Exporta o projeto compilado para execução web
