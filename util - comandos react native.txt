@@ -88,12 +88,20 @@
 
 > $ eas build --platform ios //--------------// Exporta o projeto compilado IOS
 
-----------------------------------------------EXECUÇÃO----------------------------------------------------
+----------------------------------------------EXECUÇÃO - EXPO----------------------------------------------------
 
 > $  expo start --clear //--------------// Executa o projeto com o Expo Go 
 
 > $  npx expo run:android --variant debug || release//--------------// Executa o projeto diretamente no dispositivo android, pelo emuladour ou USB
 
 > $  npx expo run:ios --variant debug || release //--------------// Executa o projeto diretamente no dispositivo IOS, pelo emuladour ou USB
+
+----------------------------------------------EXECUÇÃO - BARE WORKFLOW----------------------------------------------------
+
+(1) > $ npx react-native start //--------------// Inicia o metro bundle, é necessario executar em terminal separado 
+
+(2) > $ npx react-native run-android //--------------// Executa o projeto diretamente no dispositivo Android, pelo emuladour ou USB
+
+(2) > $ npx react-native run-ios //--------------// Executa o projeto diretamente no dispositivo IOS, pelo emuladour ou USB
 
 ----------------------------------------------------------------------------------------------------------
