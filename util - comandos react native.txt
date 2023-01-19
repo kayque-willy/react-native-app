@@ -53,6 +53,17 @@
     [Draw] (Barra lateral)
     > $  npm install @react-navigation/drawer //--------------// Instalação das dependencias de complemento para a a react navigate
 
+----------------------------------------INSTALAÇÃO - [BANCO DE DADOS - SQLITE]------------------------------------------
+
+> $ npm install @nozbe/watermelondb //--------------// Instalação do sgbd watermelondb para banco de dados local sqlite
+
+    [WATERMELONDB - DEPENDENCIAS OBRIGATÓRIAS]
+
+    > $ npm install -D @babel/plugin-proposal-decorators //--------------// Plugin da sintaxe dos Decorators do SGBD
+    
+        [OBRIGATÓRIO - BABEL] -> ./babel.config.js
+            plugins: ['@babel/plugin-proposal-decorators'], //--------------// Obrigatório a adição do plugin do reanimated no Babel.config
+
 ---------------------------INSTALAÇÃO DE DEPENDENCIAS PARA CONFIGURAÇÕES NATIVAS--------------------------
 
 > $  expo install @expo-google-fonts/roboto  //--------------// Instalação da fonte Roboto
