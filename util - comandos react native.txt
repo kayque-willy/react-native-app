@@ -59,7 +59,10 @@
 
 > $  expo install expo-app-loading  //--------------// Instalação do app loading
 
-> $  expo install react-native-reanimated  //--------------// Instalação do reanimatede, que gerencia as animações, obrigatório para o react-drawer
+> $  expo install react-native-reanimated  //--------------// Instalação do reanimated, que gerencia as animações, obrigatório para o react-drawer
+     
+     [OBRIGATÓRIO - BABEL] -> ./babel.config.js
+        plugins: ['react-native-reanimated/plugin'], //--------------// Obrigatório a adição do plugin do reanimated no Babel.config
 
 > $  expo install react-native-gesture-handler  //--------------// Instalação do gestle handler, que gerencias os gestos, obrigatório para o react-drawer
 
