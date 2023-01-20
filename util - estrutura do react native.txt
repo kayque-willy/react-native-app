@@ -15,7 +15,13 @@
     
     [databases] --> .\src\databases\... //--------------// Diretório das configurações do banco de dados local
 
+        .\src\databases\index.ts //--------------// Arquivo de conexão com o banco de dados local
+
+        .\src\databases\models\... //--------------// Diretório das models
+
         .\src\databases\schemes\... //--------------// Diretório dos schemas do banco de dados local, que são usados para criar as tabelas
+
+            .\src\databases\schemes\index.ts //--------------// Arquivo de configuração para criação do banco
     
     [routes] --> .\src\routes\... //--------------// Diretório criado manualmente para as rotas
 
